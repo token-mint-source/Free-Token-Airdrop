@@ -5,12 +5,12 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "typescript": "~4.9.5",
-    "react-scripts": "5.0.1",
-    "wagmi": "^2.12.4",
-    "viem": "^2.9.16",
+    "typescript": "^5.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "wagmi": "^2.14.11",
+    "viem": "^2.9.16",
     "@solana/wallet-adapter-react": "^0.15.35",
     "@solana/wallet-adapter-react-ui": "^0.9.35",
     "@solana/wallet-adapter-wallets": "^0.19.16",
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "typescript": "^5.2.2"
   }
 }
